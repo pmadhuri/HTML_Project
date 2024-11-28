@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice page</title>
+    <link rel="stylesheet" href="practice.js">
+</head>
+<body>
+    <a href="https://www.javatpoint.com/html-tutorial" class="blinkingText">HTML study material</a>
+    <div> <a href="https://www.google.com/">
+        <button class="btn btn primary">Home</button></a>
+        <button class="btn btn primary">practice</button>
+        <button class="btn btn primary">Login</button>
+        <button class="btn btn primary">Signup</button>
+    </div>
+    <h2>Practice Page</h2>
+     <!-- part1  -->
+    <div class="block large-row-spacer">
+
+<div class="left align" id="radio-btn-example">
+    <fieldset >
+        <legend>Radio Button Example</legend>
+        <label for="radio1">
+            <input value="radio1"  name="radioButton" class="radioButton" type="radio" id="radiobtn1" >
+        </label>
+        <label for="radio2">
+            <input value="radio2"  name="radioButton" class="radioButton" type="radio" id="radiobtn2" >
+        </label>
+        <label for="radio3">
+            <input value="radio3"  name="radioButton" class="radioButton" type="radio" id="radiobtn3" >
+        </label>
+
+
+
+    </fieldset>
+    <div class="cen left align" id="select-class-example">
+        <fieldset>
+<legend>Suggession Class Example</legend>
+<input type="text" id="autocomplete" class="inputs ui-autocomplete-input" placeholder="type to select countries" autocomplete="off">
+        </fieldset>  
+    </div>
+    <div class="cen right align">
+        
+        <fieldset>
+            <legend>Dropdown Example </legend>
+            <select name="dropdown-class-example" id="dropdown-class-example">
+                <option value="">select</option>
+                <option value="option1">option1</option>
+                <option value="option2">option2</option>
+                <option value="option3">option3</option>
+            </select>
+        </fieldset>
+        <div class="right align"><fieldset>
+            <legend>Checkbox Example</legend>
+            <label for="bmw">
+                <input id="checkBoxOption1" value="option1" name="checkBoxOption1" type="checkbox">
+            </label>
+            <label for="benz">
+                <input id="checkBoxOption2" value="option2" name="checkBoxOption1" type="checkbox">
+            </label>
+            <label for="honda">
+                <input id="checkBoxOption3" value="option3" name="checkBoxOption1" type="checkbox">
+            </label>
+        </fieldset></div>
+    </div>
+    <div class="left align">
+        <fieldset><legend>Switch Window Example</legend>
+        <button id="openwindow" class="btn style class1" onclick="openWindow()" >Open Window</button>
+        </fieldset>
+    </div>
+    <div class="cen align">
+        <fieldset><legend class="switch-tab">Switch Tab Example</legend>
+        <a id="opentab" class="btn-style class1" href="https://www.javatpoint.com/html-tutorial" target="_blank">Open Tab</a></fieldset>
+    </div>
+    <div class>
+        <fieldset class="pull right"><legend>Switch To Alert Example</legend>
+        <input id="name" name="enter-name" class="inputs" placeholder="Enter Your Name" type="text">
+        <br>
+        <input id="alert-btn" class="btn-style" value="Alert" onclick="displayAlert()" type="submit">
+        <input id="confirm-btn" class="btn-style" value="Confirm" onclick="displayConfirm()" type="submit">
+        </fieldset>
+    </div>
+    <br>
+  </div>
+</div>
+ <!-- part2 table -->
+  <div class="block large row-spacer">
+    <div class="left align">
+     <fieldset>
+    <legend>Web Table Example</legend>
+    <table id="product" name="cources" class="table-disply" border="1">
+        <tbody>
+            <tr><th>Instructor</th>
+                <th>Cources</th>
+                <th>Prices</th>
+            </tr><tr><th>ASir</th>
+                <th>HTML</th>
+                <th>30</th>
+            </tr>
+        </tr><tr><th>BSir</th>
+            <th>CSS</th>
+            <th>40</th>
+        </tr>
+    </tr><tr><th>CSir</th>
+        <th>Javascript</th>
+        <th>50</th>
+    </tr>
+</tr><tr><th>DSir</th>
+    <th>Java and Hibernate</th>
+    <th>70</th>
+</tr>
+        </tbody>
+    </table>
+   </fieldset>
+</div>
+
+<div class="right-align">
+    <fieldset><legend>Element Displayed Example</legend>
+        <input id="hide-textbox" class="btn style class2" value="Hide" onclick="hideElement()"  type="submit">
+        <input id="show-textbox" class="btn style class2" value="Show" onclick="showElement()"  type="submit">
+<br>
+<br>
+<input id="displayed-text" name="show-hide" class="inputs displayed class" placeholder="Hide/Show Example" type="text" style="display: :block;" >
+</fieldset>
+<fieldset><legend>Web Table Fixed header</legend>
+<div class="tableFixHead" style="overflow-y: auto; height: 195px; border: 1;">
+    <table id="prodect">
+        <thead><tr>
+            <th style="position: sticky; top:0;">Name</th>
+            <th style="position: sticky; top:0;">Position</th>
+            <th style="position: sticky; top:0;">City</th>
+            <th style="position: sticky; top:0;">Amount</th>
+        </tr></thead>
+<!--  table body -->
+  <tbody>
+    <tr><td>Madhuri</td>
+    <td>Software testing</td>
+    <td>Pune</td>
+    <td>1000</td></tr>
+    <tr><td>Madhuri</td>
+        <td>Software testing</td>
+        <td>Banglore</td>
+        <td>2000</td></tr>
+        <tr><td>Kiran</td>
+            <td>Software Developer</td>
+            <td>Nagpur</td>
+            <td>3000</td></tr>
+            <tr><td>ram</td>
+                <td>Software testing</td>
+                <td>Pune</td>
+                <td>4000</td></tr>
+                <tr><td>riya</td>
+                    <td>Software Developer</td>
+                    <td>Mumbai</td>
+                    <td>5000</td></tr>
+  </tbody>
+
+    </table>
+</div>
+<br>
+<div class="total amount">Total Amount Collected: 15</div>
+</fieldset>
+</div>
+
+<div class="block large-row-space">
+
+    <div class="left align">
+        <fieldset style="margin-bottom: 60px;"><legend>Mouse Over Example</legend>
+        <div class="mouse-hover">
+            <button id="mousehover" class="btn btn-primary">Mouse Hover</button>
+            <div class="mouse-hover-content">
+                <a href="#top"></a>
+                <a href>Reload</a>
+            </div>
+        </div>
+        </fieldset>
+    </div>
+</div>
+
+
+
+  </div>
+
+
+   
+
+</body>
+</html>
